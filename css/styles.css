@@ -4,6 +4,27 @@ body {
   background-color: #ffffff;
   font-size: 14px;
 }
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  }
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  }
+
+  .container-header{ 
+    height: 80px;
+    padding: 94px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content:space-between;
+  }
 .logo {
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
@@ -110,8 +131,25 @@ body {
 .address-tel.link:focus {
   color: #2196f3;
 }
+/*-------------------Слоган / Кнопка заказать----*/
+.container-slogan{
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2f303a;
 
+}
 .slogan {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  border:0px;
+  padding: 94px;
+ 
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -121,6 +159,14 @@ body {
   color: #ffffff;
 }
 .btn-order-service {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  padding: 10px 32px;
+  
+
   font-family: "Roboto", "sans-serif";
   font-weight: 700;
   font-size: 16px;
@@ -152,9 +198,8 @@ body {
 .container-contacts {
   background: #2f303a;
 }
-.container-slogan {
-  background: #2f303a;
-}
+
+
 
 .container-our-team {
   background: #e5e5e5;
