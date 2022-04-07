@@ -7,24 +7,37 @@ body {
 p,h1,h2,h3,h4,h5,h6{
   margin: 0;
 }
+ul,ol{
+  margin: 0;
+  padding-left: 0;
+}
+
+
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   }
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  }
+
 
   .container-header{ 
+    
+    width: 1200px;
     height: 80px;
     padding: 94px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content:space-between;
+    margin: 0 auto;
+    outline: 2px solid red;
   }
+
+
+.container-header .menu-log{
+  display: flex;
+}
+
+
+
+
 .logo {
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
@@ -34,6 +47,14 @@ p,h1,h2,h3,h4,h5,h6{
   letter-spacing: 0.03em;
   color: #2196f3;
   word-spacing: -7px;
+
+  display: flex;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  padding: 145 31;
 }
 .logo-contacts {
   font-family: "Raleway", "sans-serif";
@@ -57,7 +78,21 @@ p,h1,h2,h3,h4,h5,h6{
   letter-spacing: 0.02em;
   color: #212121;
   cursor: pointer;
+
+
+  display: flex;
+  align-items: center;
+  padding: 16px 70px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
+
+.menu-log:not(:last-child){
+  margin-left: auto;
+}
+
+
+
 .menu .link {
   color: #212121;
 }
@@ -87,6 +122,14 @@ p,h1,h2,h3,h4,h5,h6{
 .contacts .link:focus {
   color: #2196f3;
 }
+
+.container-contacts {
+  width: 1600px;
+  padding: 94px;
+  background: #2f303a;
+}
+
+
 .address-map {
   font-style: normal;
   font-weight: 400;
@@ -138,6 +181,7 @@ height: 600px;
 left: 0px;
 top: 80px;
 background: #2f303a;
+outline: 2px solid red;
 
 }
 .slogan {
@@ -147,7 +191,8 @@ background: #2f303a;
   left: 452px;
   top: 280px;
   border:0px;
-  padding: 94px;
+ 
+  outline: 2px solid red;
  
 
   font-weight: 900;
@@ -195,15 +240,16 @@ background: #2f303a;
 .link {
   text-decoration: none;
 }
-.container-contacts {
-  background: #2f303a;
+
+
+.container-advantages{
+  padding: 94px;
 }
 
-
-
-.container-our-team {
-  background: #e5e5e5;
+.advantages{
+  display: flex;
 }
+
 
 .advantages-name {
   font-style: normal;
@@ -223,7 +269,7 @@ background: #2f303a;
 
   color: #757575;
 }
-
+/*---------------Чем мы занимаемся--------*/
 .classes-title {
   font-weight: 700;
   font-size: 36px;
@@ -232,6 +278,38 @@ background: #2f303a;
   letter-spacing: 0.03em;
   color: #212121;
 }
+.container-classes-title{
+
+
+
+  padding: 94px;
+  justify-content:space-evenly;
+  outline: 2px solid red;
+}
+
+.classes-image{
+  display: flex;
+ 
+}
+.image+.image{
+  margin-left: 30px;
+}
+
+
+.container-our-team {
+  width: 1600px;
+  background: #e5e5e5;
+}
+.our-team-list {
+  width:calc((100%-30px)/3)
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-bottom: -30px;
+}
+
+
+
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -240,7 +318,11 @@ background: #2f303a;
   letter-spacing: 0.03em;
   color: #212121;
 }
+.container-team{
+  width: 1200px;
+  padding: 94px;
 
+}
 .team-member {
   background: #ffffff;
 }
