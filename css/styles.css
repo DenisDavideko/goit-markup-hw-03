@@ -64,6 +64,8 @@ html{
   color: #2196f3;
   word-spacing: -7px;
   outline: 2px solid red;
+  margin:40px;
+  
 }
 .logo-studio-bleck {
  
@@ -136,9 +138,9 @@ html{
 }
 
 .container-contacts {
-  width: 1600px;
-  padding: 94px;
-  margin: 0 ;
+  width: 1200px;
+  padding: 60px 15px;
+  margin: 0 auto;
   background: #2f303a;
   outline: 2px solid red;
 }
@@ -150,6 +152,8 @@ html{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  padding-bottom: 9px;
+  padding-top: 20px;
 }
 .address-map.link {
   color: #ffffff;
@@ -166,6 +170,7 @@ html{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  padding-bottom: 9px;
 }
 .address-tel {
   font-style: normal;
@@ -190,8 +195,10 @@ html{
 }
 /*-------------------Слоган / Кнопка заказать----*/
 .container-slogan{
-  
-  height: 600px;
+  width: 1200px;
+  padding: 94px;
+  margin: 0 auto;
+ 
   left: 0px;
   top: 80px;
   margin: 0 auto;
@@ -202,14 +209,10 @@ html{
 }
 .slogan {
   
-  position: absolute;
+ 
   width: 696px;
- 
- 
-
   border:0px;
-
-  padding: 200px 0 280px 0;
+  
   margin: 0 auto;
   outline: 2px solid red;
  
@@ -223,7 +226,7 @@ html{
   color: #ffffff;
 }
 .btn-order-service {
-  position: absolute;
+  margin: 0 auto;
   width: 136px;
   height: 30px;
   left: 732px;
@@ -264,15 +267,16 @@ html{
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  padding: 94px;
-  outline: 2px solid red;
+  padding: 94px 0;
 }
 
 .advantages{
   display: flex;
-  padding: 94px;
 }
-
+.advantages-list{
+  width: 270px;
+  margin: 0 auto; 
+}
 
 .advantages-name {
   font-style: normal;
@@ -284,23 +288,21 @@ html{
   color: #212121;
 }
 .advantages-item {
+  
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 /*---------------Чем мы занимаемся--------*/
 .container-title{
   width: 1200px;
-  padding: 0 15px;
+  padding-bottom: 94px;
   margin: 0 auto;
 }
 .classes-title {
-  
-  padding: 0 15px;
   margin: 0 auto;
   font-weight: 700;
   font-size: 36px;
@@ -308,67 +310,42 @@ html{
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 50px;
 }
 .container-classes-title{
   width: 1200px;
-  padding: 0 15px;
   margin: 0 auto;
   
-  /*margin: 0 auto;*/
-
-  /*flex-basis: calc(100% /3- 30px);
-  /*width: calc((100% -60px)/3);*/
-  /*margin-left: 30px;*/
-  outline: 2px solid red;
 }
 
 .classes-image{
   display: flex;
-  /*flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: -30px;*/
+  flex-wrap: wrap;
 }
 
-.image {
-  
-width: calc((100% - 90px) / 3);
-margin-right: 30px;
-/*margin-left: 15px;*/
+.image { 
+/*width: calc((100% - 90px) / 3);*/
+padding: 0 15px;
+/*margin: 0 auto;*/
 }
-.image:last-child{
-    margin-right: 0;
-  }
 
 
 /*---------------Наша команда--------*/
 .container-our-team {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
-  outline: 2px solid red;
-  background: #e5e5e5;
+  padding: 94px 0; 
+  background: #e5e5e5; 
 }
-
 .our-team-list {
-  outline: 2px solid red;
   display: flex;
- /* margin-left: 30px;
-  margin-bottom: -30px;*/
+  flex-wrap: wrap;
 }
-/*flex-wrap: wrap;*/
-img{
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/*.team-member + .team-member{
-  margin-left: 30px;
-}*/
 .team-member{
-  flex-basis: calc(100% / 4 - 30px);
-  width: calc((100% - 120px) / 4);
-  margin-right: 30px;
-  outline: 2px solid green;
+  margin: 0 15px;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .our-team {
@@ -379,18 +356,13 @@ img{
   letter-spacing: 0.03em;
   color: #212121;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-bottom: 50px;
 }
 .container-team{
-  outline: 2px solid red;
   width: 1200px;
-  padding: 94px;
   border: 0;
+}
 
-}
-.team-member {
-  background: #ffffff;
-}
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
@@ -399,6 +371,7 @@ img{
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 30px 0 10px 0;
 }
 .team-member-position {
   font-weight: 400;
@@ -408,7 +381,17 @@ img{
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 15px;
 }
+
+/*-------------everything----------*/
+.container-projects{
+  display: inline;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .btnn {
   font-family: "Roboto", "sans-serif";
   font-style: normal;
@@ -455,7 +438,11 @@ img{
 }
 /*----------------projects-list----------------*/
 
-
+.projects-content{
+  outline:  1px solid #EEEEEE;
+  margin: 0 auto;
+  border: ;
+}
 
 .projects-name {
   font-family: "Roboto", "sans-serif";
@@ -465,7 +452,8 @@ img{
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: #212121;
+  color: #212121; 
+  padding:20px 0 4px 24px;
 }
 
 .project-type {
@@ -476,27 +464,29 @@ img{
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  
 }
 .projects-list {
   cursor: pointer;
   display: flex;
   width: 1200px;
-  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
   flex-wrap: wrap;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  background-color: aqua;
 }
 
-
+img{
+  display: block;
+}
 .img-p{
-  width: calc((100% - 90px) / 3);
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-bottom: 30px;
+  
+  margin: 0 30px 30px 0;
 }
 .img-p:nth-child(3n){
-  margin-right: 0;}
+  margin-right: 0;
+}
+.img-p:nth-child(n + 7){
+  margin-bottom: 94px;
+}
