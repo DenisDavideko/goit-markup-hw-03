@@ -23,10 +23,11 @@ html{
 
 
 
-.container-header{ 
-  width: 1200px;
+.container{ 
+  width: 800px;
   padding: 0 15px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  padding: 94px 0;
 
   border: 0;
   margin: 0 auto;
@@ -36,7 +37,8 @@ html{
   display: inline-block;
   display: flex;
   align-items: center;
-  margin-right: 93px;
+ 
+  /*margin-right: 93px;*/
   }
 
 
@@ -56,6 +58,7 @@ html{
   outline: 2px solid red;
 }
 .logo-contacts {
+  width: 145px;
   font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
@@ -63,8 +66,10 @@ html{
   letter-spacing: 0.03em;
   color: #2196f3;
   word-spacing: -7px;
- margin-top: 20px;
-  
+ /* margin-top: 10px;*/
+  outline: 2px solid red;
+ /* margin-bottom: 20px;*/
+  padding: 10px auto 20px;
 }
 
 
@@ -75,7 +80,12 @@ html{
 .logo-studio-white {
   color: #ffffff;
 }
+.menu-list{
+  /*width: 294px;
+  padding-right: 20px;*/
+}
 .menu {
+  width: 294px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -86,6 +96,7 @@ html{
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border: 0;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -118,16 +129,26 @@ html{
 
   display: flex;
   align-items: center;
-  
+  padding-left: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.menu-studio,
+.menu-portfolio,.menu-contacts{
+  padding: 0px;
 }
 
 .contacts-mail-tel{
   outline: 2px solid red;
+  width: 350px;
+  margin: 0 900px 0;
 }
-
-
+.contacts-mail,.contacts-tel{
+  padding-left: 50px
+}
+/*.img-p:nth-child(3n){
+  margin-right: 0;*/
+  
 .contacts .link {
   color: #757575;
 }
@@ -200,27 +221,18 @@ html{
 /*-------------------Слоган / Кнопка заказать----*/
 .container-slogan{
   width: 1200px;
-  padding: 94px;
   margin: 0 auto;
- 
-  left: 0px;
-  top: 80px;
-  margin: 0 auto;
-  background: #2f303a;
-  outline: 2px solid red;
- 
 
+ 
+  display: flex;
+  flex-direction: column;
+  background: #2f303a;
 }
 .slogan {
-  
- 
   width: 696px;
   border:0px;
-  
-  margin: 0 auto;
-  outline: 2px solid red;
+  margin: 200px auto 15px;
  
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -230,20 +242,16 @@ html{
   color: #ffffff;
 }
 .btn-order-service {
-  margin: 0 auto;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-  padding: 10px 32px;
-  
 
+  width: 200px;
+  padding : 10px 0px;
+  margin: 15px auto 200px;
+ 
   font-family: "Roboto", "sans-serif";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
  
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
@@ -307,6 +315,7 @@ html{
   margin: 0 auto;
 }
 .classes-title {
+  padding: 0 15px;
   margin: 0 auto;
   font-weight: 700;
   font-size: 36px;
