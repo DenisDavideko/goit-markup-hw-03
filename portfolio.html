@@ -14,43 +14,47 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav>
+            <nav class="menu-log">
                 <a href="./index.html" class="logo link" lang="en">
                     Web <span class="logo-studio-bleck"> Studio</span>
                 </a>
-                <ul class="menu list">
-                    <li><a href="./index.html" class="menu-studio link ">Студия</a></li>
-                    <li><a href="./portfolio.html" class="menu-portfolio link current">Портфолио</a></li>
-                    <li><a href="#contacts" class="menu-contacts link">Контакты</a></li>
-                </ul>
+                <div class="menu-list">
+                    <ul class="menu list ">
+                        <li><a href="./index.html" class="menu-link link ">Студия</a></li>
+                        <li><a href="./portfolio.html" class="menu-link link current ">Портфолио</a></li>
+                        <li><a href="#contacts" class="menu-link link">Контакты</a></li>
+                    </ul>
+                </div>
             </nav>
+            <ul class="contacts list">
+                <li><a href="mailto:mailinfo@devstudio.com" class="contacts-mail link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="contacts-tel link">+38 096 111 11 11</a></li>
+            </ul>
         </div>
-    </header>
-        <ul class="contacts list">
-            <li><a href="mailto:mailinfo@devstudio.com" class="contacts-mail link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contacts-tel link">+38 096 111 11 11</a></li>
-        </ul>
+    </header> 
     <main>
         <!--Projects-->
-        <section>
+        <section class="container-projects-list">
             <div class="container-projects">
-                <ul class="buttons-list list">
-                    <li class="everything">
-                         <button type="button" class="btn-everything">Все</button>
-                    </li>
-                    <li class="sites">
-                        <button type="button" class="btnn">Веб-сайты</button>
-                    </li>
-                    <li class="applications">
-                        <button type="button" class="btnn">Приложения</button>
-                    </li>
-                    <li class="design">
-                        <button type="button" class="btnn">Дизайн</button>
-                    </li>
-                    <li class="marketing">
-                        <button type="button" class="btnn">Маркетинг</button>
-                    </li>
-                </ul>
+                <div class="buttons">
+                    <ul class="buttons-list list">
+                        <li class="everything">
+                            <button type="button" class="btn-everything">Все</button>
+                        </li>
+                        <li class="sites">
+                            <button type="button" class="btnn">Веб-сайты</button>
+                        </li>
+                        <li class="applications">
+                            <button type="button" class="btnn">Приложения</button>
+                        </li>
+                        <li class="design">
+                            <button type="button" class="btnn">Дизайн</button>
+                        </li>
+                        <li class="marketing">
+                            <button type="button" class="btnn">Маркетинг</button>
+                        </li>
+                    </ul>
+                </div>
                 <h1 hidden>Проекты</h1>
                 <ul class="projects-list list">
                     <li class="img-p"><img src="./images/img-p1.jpg" 
@@ -121,7 +125,7 @@
             </div>
         </section>
     </main>
-    <footer class="container-contacts-bottom">
+    <footer class="footer" id="contacts">
         <!--Контакты-->
         <div class="container-contacts">
             <a href="./index.html" class="logo-contacts link" lang="en">
