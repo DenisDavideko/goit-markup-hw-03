@@ -148,17 +148,17 @@ html{
 .contacts .link:focus {
   color: #2196f3;
 }
-
+.footer{
+  background: #2f303a;
+  padding: 60px 15px;
+}
 
 .container-contacts {
  /* display: block;*/
-  background: #2f303a;
   display: flex;
   flex-direction: column;
-  padding: 60px 15px;
   margin: 0 auto;
 }
-
 
 .address-map {
   font-style: normal;
@@ -208,7 +208,7 @@ html{
   color: #2196f3;
 }
 /*-------------------Слоган / Кнопка заказать----*/
-.container-slogan{
+.section-slogan{
   background: #2f303a;
   padding: 200px 0;
 }
@@ -289,48 +289,49 @@ html{
 
 .classes-title {
   padding: 0 15px;
-  margin: 0 auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom:  50px;
 }
 .container-classes-title{
-  width: 1200px;
-  margin: 0 auto;
+  padding-bottom: 94px;
 }
 
 .classes-image{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 
 
 /*---------------Наша команда--------*/
 .container-our-team {
-
   padding: 94px 0; 
   background: #e5e5e5; 
 }
 .team{
   padding: 30px 0;
+  margin-right: 30px;
 }
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between
+
 }
 .team-member{
-
+  margin-right: 30px;
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
+.team-member:last-child{
+  margin-right: 0px
+}
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -375,9 +376,13 @@ html{
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
- 
 }
-
+.button-item{
+  margin-right: 8px;
+}
+.button-item:nth-child(5){
+  margin-right: 0px;
+}
 .button{
   font-family: "Roboto", "sans-serif";
   font-style: normal;
@@ -393,11 +398,8 @@ html{
   background: #f5f4fa;
   border: none;
   padding: 6px 22px;
-  margin-right: 8px;
 }
-.button:nth-child(5){
-  margin-right: 0px;
-}
+
 .button.current {
   background: #2196f3;
 }
