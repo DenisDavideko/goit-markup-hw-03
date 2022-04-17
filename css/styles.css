@@ -297,7 +297,8 @@ html{
   color: #212121;
   margin-bottom:  50px;
 }
-.container-classes-title{
+.section-title{
+  padding-top: 0;
   padding-bottom: 94px;
 }
 
@@ -310,8 +311,7 @@ html{
 
 
 /*---------------Наша команда--------*/
-.container-our-team {
-  padding: 94px 0; 
+.section-our-team { 
   background: #e5e5e5; 
 }
 .team{
