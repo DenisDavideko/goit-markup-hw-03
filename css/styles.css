@@ -377,7 +377,7 @@ html{
   justify-content: center;
   
   margin-bottom: 50px;
-  outline:  1px solid #ce2222;
+
 }
 .button-item{
   margin-right: 8px;
@@ -400,7 +400,7 @@ html{
   background: #f5f4fa;
   border: none;
   padding: 6px 22px;
-  outline:  1px solid #ce2222;
+  
 }
 
 .button.current {
@@ -426,7 +426,7 @@ html{
 .projects-content{
   border: 1px solid #EEEEEE;
   border-top: none;
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .projects-name {
