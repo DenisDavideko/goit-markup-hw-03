@@ -210,7 +210,7 @@ html{
 /*-------------------Слоган / Кнопка заказать----*/
 
 .background-slogan{
-  background: #C4C4C4;
+  /*background: #C4C4C4;
   background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   url(../images/Img-background1.jpg);
   background-repeat: no-repeat;
@@ -218,11 +218,12 @@ html{
   background-size: cover;
   margin: 0 auto;
   max-width: 1600px;
-  height: 600px;
+  height: 600px;*/
 }
 
 .section-slogan{
   padding: 200px 0;
+  background: #2F303A;
 }
 
 .slogan {
@@ -327,7 +328,7 @@ html{
 }
 .team{
   padding: 30px 0; 
-  outline:  1px solid #2fd474;
+  /*outline:  1px solid #2fd474;*/
 }
 .our-team-list {
   display: flex;
@@ -336,7 +337,7 @@ html{
 }
 
 .team-member{
-  outline:  1px solid #2fd474;
+  /*outline:  1px solid #2fd474;*/
   margin-right: 30px;
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -358,7 +359,7 @@ html{
 .container-team{
   width: 1200px;
   border: 0;
-  outline:  1px solid #2fd474;
+  /*outline:  1px solid #2fd474;*/
 }
 
 .team-member-name {
@@ -389,13 +390,13 @@ html{
 .team-social-item+.team-social-item{
   margin-left: 10px;
 }
-.team-social-link{
+/*.team-social-link{
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color:green ;
-  /*background: #FFFFFF;*/
-  display: block;
+  background: #FFFFFF;
+  display: block;*/
 
 }
 
