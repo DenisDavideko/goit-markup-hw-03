@@ -208,10 +208,23 @@ html{
   color: #2196f3;
 }
 /*-------------------Слоган / Кнопка заказать----*/
+
+.background-slogan{
+  background: #C4C4C4;
+  background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(../images/Img-background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 600px;
+}
+
 .section-slogan{
-  background: #2f303a;
   padding: 200px 0;
 }
+
 .slogan {
   width: 696px;
   margin: 0 auto;
@@ -306,9 +319,7 @@ html{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
-
 
 /*---------------Наша команда--------*/
 .section-our-team { 
@@ -316,12 +327,16 @@ html{
 }
 .team{
   padding: 30px 0; 
+  outline:  1px solid #2fd474;
 }
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
+  
 }
+
 .team-member{
+  outline:  1px solid #2fd474;
   margin-right: 30px;
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -343,6 +358,7 @@ html{
 .container-team{
   width: 1200px;
   border: 0;
+  outline:  1px solid #2fd474;
 }
 
 .team-member-name {
@@ -363,8 +379,38 @@ html{
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
- 
+  margin-bottom: 16px;
 }
+.team-social-list{
+  display: flex;
+  justify-content: center;
+  
+}
+.team-social-item+.team-social-item{
+  margin-left: 10px;
+}
+.team-social-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color:green ;
+  /*background: #FFFFFF;*/
+  display: block;
+
+}
+
+/*---------------Постоянные клиенты--------*/
+.clients{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 
 /*-------------everything----------*/
 
